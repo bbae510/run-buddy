@@ -411,6 +411,29 @@ section {
   display: flex;
 }
 
+
+
+/*CSS GRID*/
+
+.service-grid-container {
+  display: grid;
+}
+
+.service-grid-item {
+  width: 200px;
+  height: 50px;
+  background-color: orange;
+  border: solid black;
+}
+
+
+
+
+
+
+
+
+
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
   header {
@@ -516,5 +539,3 @@ section {
       order: 3;
     }
   }
-
-  
