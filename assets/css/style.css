@@ -593,18 +593,7 @@ section {
 
 
 /* Animation and Tranisition Property */
-div {
-  font-size: 20px;
-  transition-property: font-size;
-  transition-duration: 2s;
 
-  /* or shorthand */
-  transition: font-size 2s;
-}
-
-div:hover {
-  font-size: 200px;
-}
 
 
 
