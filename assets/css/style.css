@@ -1,7 +1,7 @@
 :root {
-  --primary-color: var(--primary-color);
-  --secondary-color: var(--secondary-color);
-  --tertiary-color: var(--tertiary-color);
+  --primary-color: #fce138;
+  --secondary-color: #024e76;
+  --tertiary-color: #39a6b2;
 }
 
 * {
@@ -114,7 +114,7 @@ section {
     align-items: flex-start;
     background-attachment: fixed;
     
-    
+
   }
   /* Hero Style End */
 
@@ -255,9 +255,7 @@ section {
 
   /* HERO STYLES END */
 
-  /*.intro {
-      text-align: center;
-  }*/
+  
 
   .intro h2 {
     font-size: 55px;
@@ -591,6 +589,26 @@ section {
   font-size: 1.5rem;
   font-weight: bold;
 }
+
+
+
+/* Animation and Tranisition Property */
+div {
+  font-size: 20px;
+  transition-property: font-size;
+  transition-duration: 2s;
+
+  /* or shorthand */
+  transition: font-size 2s;
+}
+
+div:hover {
+  font-size: 200px;
+}
+
+
+
+
 
 /* Media Queries for CSS Grid Run Buddy*/
 
